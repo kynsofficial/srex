@@ -1,0 +1,737 @@
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[03-Apr-2023 19:44:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[03-Apr-2023 20:08:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[03-Apr-2023 21:55:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[06-Apr-2023 18:41:13 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:13 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:13 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:13 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:13 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:13 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:41:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 321
+[06-Apr-2023 18:41:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 386
+[06-Apr-2023 18:41:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:41:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:42:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:42:51 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 321
+[06-Apr-2023 18:42:51 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 386
+[06-Apr-2023 18:42:51 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:42:51 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:43:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:43:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:43:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:43:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:43:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:43:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:45:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 321
+[06-Apr-2023 18:45:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 386
+[06-Apr-2023 18:45:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:45:52 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:46:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:34 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:34 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:34 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:34 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:34 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:46:34 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:48:05 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:48:05 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:48:05 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:48:05 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:48:05 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:48:05 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:48:09 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 321
+[06-Apr-2023 18:48:09 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 386
+[06-Apr-2023 18:48:09 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:48:09 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 387
+[06-Apr-2023 18:50:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:50:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:50:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:50:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:50:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:50:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:56:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:56:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:56:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:56:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:56:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:56:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[06-Apr-2023 18:57:49 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[06-Apr-2023 19:41:12 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[08-Apr-2023 22:53:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:53:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:53:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:53:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:53:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:53:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:54:26 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:54:26 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:54:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:54:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:54:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:54:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:56:12 Africa/Lagos] PHP Warning:  Undefined variable $international_transportation_cost in /home2/sendasa1/public_html/sendasap/admin/order.php on line 307
+[08-Apr-2023 22:56:12 Africa/Lagos] PHP Warning:  Undefined variable $international_transportation_cost in /home2/sendasa1/public_html/sendasap/admin/order.php on line 307
+[08-Apr-2023 22:56:12 Africa/Lagos] PHP Warning:  Undefined variable $international_transportation_cost in /home2/sendasa1/public_html/sendasap/admin/order.php on line 307
+[08-Apr-2023 22:56:12 Africa/Lagos] PHP Warning:  Undefined variable $international_transportation_cost in /home2/sendasa1/public_html/sendasap/admin/order.php on line 307
+[08-Apr-2023 22:56:12 Africa/Lagos] PHP Warning:  Undefined variable $international_transportation_cost in /home2/sendasa1/public_html/sendasap/admin/order.php on line 307
+[08-Apr-2023 22:56:12 Africa/Lagos] PHP Warning:  Undefined variable $international_transportation_cost in /home2/sendasa1/public_html/sendasap/admin/order.php on line 307
+[08-Apr-2023 22:56:12 Africa/Lagos] PHP Warning:  Undefined variable $international_transportation_cost in /home2/sendasa1/public_html/sendasap/admin/order.php on line 307
+[08-Apr-2023 21:56:33 UTC] PHP Parse error:  syntax error, unexpected variable "$domestic_transportation_cost" in /home2/sendasa1/public_html/sendasap/admin/order.php on line 306
+[08-Apr-2023 22:56:47 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:56:47 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:56:47 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:56:47 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:56:47 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:56:47 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/order.php on line 305
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[08-Apr-2023 22:58:06 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[08-Apr-2023 23:34:36 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home2/sendasa1/public_html/sendasap/admin/order-pending.php:261
+Stack trace:
+#0 /home2/sendasa1/public_html/sendasap/admin/order-pending.php(261): number_format('4,102.00')
+#1 {main}
+  thrown in /home2/sendasa1/public_html/sendasap/admin/order-pending.php on line 261
+[08-Apr-2023 22:37:14 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home2/sendasa1/public_html/sendasap/admin/order_action.php:131
+Stack trace:
+#0 /home2/sendasa1/public_html/sendasap/admin/order_action.php(131): number_format('4,102.00')
+#1 {main}
+  thrown in /home2/sendasa1/public_html/sendasap/admin/order_action.php on line 131
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[09-Apr-2023 00:17:25 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home2/sendasa1/public_html/sendasap/admin/order.php:378
+Stack trace:
+#0 /home2/sendasa1/public_html/sendasap/admin/order.php(378): number_format('4,102.00', 2)
+#1 {main}
+  thrown in /home2/sendasa1/public_html/sendasap/admin/order.php on line 378
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[09-Apr-2023 01:22:50 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home2/sendasa1/public_html/sendasap/admin/order.php:378
+Stack trace:
+#0 /home2/sendasa1/public_html/sendasap/admin/order.php(378): number_format('4,102.00', 2)
+#1 {main}
+  thrown in /home2/sendasa1/public_html/sendasap/admin/order.php on line 378
+[09-Apr-2023 01:23:09 Africa/Lagos] PHP Warning:  Undefined variable $link in /home2/sendasa1/public_html/sendasap/admin/home.php on line 313
+[09-Apr-2023 01:23:09 Africa/Lagos] PHP Warning:  Undefined variable $link in /home2/sendasa1/public_html/sendasap/admin/home.php on line 321
+[09-Apr-2023 01:31:07 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home2/sendasa1/public_html/sendasap/admin/order.php:378
+Stack trace:
+#0 /home2/sendasa1/public_html/sendasap/admin/order.php(378): number_format('4,102.00', 2)
+#1 {main}
+  thrown in /home2/sendasa1/public_html/sendasap/admin/order.php on line 378
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 935
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 935
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 935
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 935
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 935
+[09-Apr-2023 02:41:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 935
+[09-Apr-2023 02:45:53 Africa/Lagos] PHP Warning:  Undefined variable $link in /home2/sendasa1/public_html/sendasap/admin/home.php on line 313
+[09-Apr-2023 02:45:53 Africa/Lagos] PHP Warning:  Undefined variable $link in /home2/sendasa1/public_html/sendasap/admin/home.php on line 321
+[10-Apr-2023 13:54:38 Africa/Lagos] PHP Warning:  Undefined array key "commitment" in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 508
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[10-Apr-2023 20:48:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1009
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1009
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1009
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1009
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1009
+[10-Apr-2023 21:55:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1009
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[15-Apr-2023 12:31:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[15-Apr-2023 13:17:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[15-Apr-2023 12:29:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 1
+[15-Apr-2023 12:29:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/sendasa1/public_html/sendasap/admin/include/session.php on line 3
+[15-Apr-2023 13:29:22 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 13:29:22 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 12:32:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 1
+[15-Apr-2023 12:32:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/sendasa1/public_html/sendasap/admin/include/session.php on line 3
+[15-Apr-2023 13:32:02 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 13:32:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 12:34:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 1
+[15-Apr-2023 12:34:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/sendasa1/public_html/sendasap/admin/include/session.php on line 3
+[15-Apr-2023 13:34:30 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[15-Apr-2023 13:34:30 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 73
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[18-Apr-2023 18:10:03 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/home.php on line 81
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[27-May-2023 17:46:54 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 14
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 34
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 97
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 97
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 97
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 97
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 98
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 99
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 100
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 104
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 138
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 170
+[29-May-2023 11:11:43 Africa/Lagos] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 170
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 177
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 178
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 179
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 183
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 184
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 185
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 189
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 204
+[29-May-2023 11:11:43 Africa/Lagos] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 204
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 210
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 223
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 230
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 231
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 233
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 234
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 240
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 254
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 279
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 284
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 357
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 358
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 409
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 410
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 411
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 440
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 441
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 442
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 470
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 471
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 472
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 493
+[29-May-2023 11:11:43 Africa/Lagos] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 493
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 493
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 502
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 503
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 504
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 533
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 534
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 535
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 564
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 565
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 566
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 595
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 596
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 597
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 618
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 625
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 630
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 632
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 645
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 659
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 659
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 659
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 744
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 745
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 752
+[29-May-2023 11:11:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type bool in /home2/sendasa1/public_html/sendasap/admin/pay-supplier-details.php on line 753
+[29-May-2023 11:11:59 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home2/sendasa1/public_html/sendasap/admin/order-pending.php:273
+Stack trace:
+#0 /home2/sendasa1/public_html/sendasap/admin/order-pending.php(273): number_format('131,632.00')
+#1 {main}
+  thrown in /home2/sendasa1/public_html/sendasap/admin/order-pending.php on line 273
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/head.php on line 21
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 6
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 9
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 28
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 31
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/includes/user-profile.php on line 48
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[29-May-2023 12:55:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/sendasap/admin/order-details.php on line 1093
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/email.php on line 83
+[30-May-2023 08:38:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/email.php on line 83
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[30-May-2023 08:52:00 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[01-Jun-2023 09:22:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[10-Aug-2023 15:36:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[10-Aug-2023 19:41:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/home.php on line 73
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/home.php on line 73
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/home.php on line 81
+[15-Aug-2023 21:54:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/home.php on line 81
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[15-Aug-2023 23:03:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[15-Aug-2023 23:35:10 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[16-Aug-2023 09:30:50 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[16-Aug-2023 10:10:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/email.php on line 83
+[01-Sep-2023 21:16:16 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/email.php on line 83
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[05-Oct-2023 07:17:44 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/home.php on line 73
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/home.php on line 73
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/home.php on line 81
+[05-Oct-2023 07:17:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/home.php on line 81
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[05-Oct-2023 11:07:58 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/head.php on line 21
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 6
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 9
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 28
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 31
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/includes/user-profile.php on line 48
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Undefined variable $admin in /home2/sendasa1/public_html/admin/order-details.php on line 1093
+[08-Nov-2023 20:33:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home2/sendasa1/public_html/admin/order-details.php on line 1093

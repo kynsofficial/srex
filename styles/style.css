@@ -1,0 +1,246 @@
+@import './fontawesome-free-6.1.1-web/css/all.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--primaryTextColor: #13293d;
+	--secondaryColor: #cb2449;
+	--background: #f6f9ff;
+	--pagePadding: 6.25rem 3.125rem;
+}
+a {
+	text-decoration: none;
+	color: var(--primaryTextColor);
+}
+body {
+	font-family: source-serif;
+	accent-color: var(--secondaryColor);
+}
+h2 {
+	font-family: KanitRegular;
+}
+.button {
+	background-color: var(--secondaryColor);
+	border: none;
+	color: #fff;
+	width: 100%;
+	height: 3.125rem;
+	margin-top: 1.25rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	font-family: rubikBold;
+}
+.show {
+	display: block !important;
+}
+.hide {
+	display: none !important;
+}
+.nav {
+	max-width: 90rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+}
+.nav > a {
+	flex: 1;
+	-webkit-tap-highlight-color: transparent;
+}
+.nav h1 {
+	color: var(--primaryTextColor);
+}
+.nav > .navlinks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 3;
+	gap: 20px;
+}
+.nav ul {
+	display: flex;
+	gap: 3.125rem;
+	background-color: #f6f9ff;
+	padding: 1.25rem 5rem;
+	border-radius: 0.5rem;
+}
+.nav ul li {
+	font-family: rubikRegular;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	white-space: nowrap;
+}
+.nav .active {
+	color: var(--secondaryColor);
+	font-family: rubikBold;
+}
+.nav img {
+	width: 50px;
+	height: 5px;
+}
+.nav .buttons {
+	justify-self: flex-end;
+}
+.nav .buttons button {
+	background-color: transparent;
+	border: none;
+	padding: 0.75rem 1.5625rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+.nav .buttons button:last-child {
+	border: 0.1875rem solid var(--secondaryColor);
+}
+.nav .bar,
+.nav .overlay {
+	display: none;
+}
+footer {
+	box-shadow: 6px 1px 25px 0px rgba(166, 166, 166, 0.25);
+	border-radius: 18px 18px 0px 0px;
+}
+.footer {
+	margin: auto;
+	padding: 6.25rem 3.125rem 3.125rem;
+	max-width: 1440px;
+}
+.footer h1 {
+	color: var(--primaryTextColor);
+}
+.footer .section1 {
+	border-bottom: 1px solid #d4d4d4;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.footer .section1 div {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	flex: 1;
+	font-weight: 500;
+}
+.footer .section1 h4 {
+	font-family: kanitRegular;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.footer .section1 div:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.footer .section1 span {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+.footer .section1 img {
+	border-radius: 4px;
+	border: 1px solid #d4d4d4;
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	cursor: pointer;
+}
+.footer .section2 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	flex-wrap: wrap;
+}
+.footer .section2 div:nth-child(2) {
+	display: flex;
+	gap: 25px;
+}
+
+@media (max-width: 1200px) {
+	.nav > .navlinks {
+		flex: 5;
+	}
+}
+@media (max-width: 900px) {
+	:root {
+		--pagePadding: 20px;
+	}
+	html {
+		font-size: 14px;
+	}
+	.nav {
+		padding: 20px;
+		z-index: 2;
+	}
+	.nav > .navlinks {
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		right: 0;
+		top: -100%;
+		width: 100%;
+		z-index: 9;
+		background-color: var(--background);
+		transition: top 0.5s ease;
+	}
+	.navlinksShown {
+		background-color: var(--background);
+	}
+	.nav .navlinksShown {
+		top: 60px;
+	}
+	.nav .navlinks ul {
+		width: 100%;
+		flex-direction: column;
+		gap: 35px;
+	}
+	.nav .navlinks .buttons {
+		margin: 10px auto 25px;
+	}
+	.nav .bar {
+		display: block;
+		color: var(--secondaryColor);
+	}
+	.nav .fas {
+		font-size: 2rem;
+	}
+	.nav .overlay {
+		background-color: rgba(0, 0, 0, 0.4);
+		position: fixed;
+		top: 65px;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: 1;
+		display: none;
+	}
+	.button {
+		width: 70%;
+	}
+	.footer {
+		padding: 1.875rem 1.25rem 1.875rem;
+		overflow: hidden;
+	}
+	.footer .section1 {
+		row-gap: 20px;
+		padding-bottom: 1.25rem;
+	}
+	.footer .section2 {
+		gap: 20px;
+		padding-top: 1.25rem;
+	}
+	.footer .section1 div:nth-child(1) {
+		min-width: 900px;
+		max-width: 100%;
+	}
+	.footer .section1 div {
+		min-width: 350px;
+	}
+}

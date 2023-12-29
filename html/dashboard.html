@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dashboard - Srex</title>
+		<link rel="stylesheet" href="./styles/fonts.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="stylesheet" href="./styles/login.css" />
+		<script src="./scripts/dashboard.js" type="text/javascript" defer></script>
+		<link rel="stylesheet" href="../styles/dashboard.css" />
+	</head>
+	<body class="main-dashboard">
+		<side-bar><?php include 'includes/side-bar.php'; ?></side-bar>
+		<section class="main-body">
+			<header-bar><?php include 'includes/top-bar.php'; ?></header-bar>
+
+			<div class="dashboard">
+				<div class="grid">
+					<div class="sub-grid wide">
+						<div>
+							<img src="./assets/images/scooter.png" />
+						</div>
+						<div class="sub-grid-content">
+							<span> You have made </span>
+							<h3>4 shipments</h3>
+						</div>
+						<div class="grid-right right1">
+							May 2023
+							<i class="fas fa-chevron-down"></i>
+						</div>
+					</div>
+					<div class="sub-grid">
+						<div class="sub-grid-content">
+							<h4>Book Shipments</h4>
+							<p>Send or receive items</p>
+						</div>
+						<i class="fas fa-chevron-right grid-right"></i>
+					</div>
+					<div class="sub-grid">
+						<div class="sub-grid-content">
+							<h4>Shop & Ship</h4>
+							<p>Mail packages to our hub</p>
+						</div>
+						<i class="fas fa-chevron-right grid-right"></i>
+					</div>
+					<div class="sub-grid wide">
+						<div>
+							<img src="./assets/images/balance.svg" />
+						</div>
+						<div class="sub-grid-content">
+							<span>Your balance is</span>
+							<h3>₦ 10,000</h3>
+						</div>
+						<div class="grid-right right2">Fund wallet</div>
+					</div>
+					<div class="sub-grid">
+						<div class="sub-grid-content">
+							<h4>Get pricing</h4>
+							<p>Request quote</p>
+						</div>
+						<i class="fas fa-chevron-right grid-right"></i>
+					</div>
+					<div class="sub-grid">
+						<div class="sub-grid-content">
+							<h4>Track Shipments</h4>
+							<p>Track your shipments</p>
+						</div>
+						<i class="fas fa-chevron-right grid-right"></i>
+					</div>
+				</div>
+				<section class="gradient">
+					<p>
+						Meet the SREX mobile app now available on the Appstore and Playstore
+					</p>
+					<div>
+						<button>
+							<img src="./assets/images/playstore.svg" alt="" />
+							Download on Playstore
+						</button>
+						<button>
+							<img src="./assets/images/apple.svg" alt="" />
+							Download on Appstore
+						</button>
+					</div>
+				</section>
+				<section>
+					<div class="header">
+						<h3>Recent shipments</h3>
+						<span onclick="handleNavigate('shipments')"
+							>See all <i class="fas fa-chevron-right"></i
+						></span>
+					</div>
+					<div class="recents">
+						<div class="list-header">
+							<span>SENDER</span>
+							<span>RECEIVER</span>
+							<span>Tracking ID</span>
+							<span>AMOUNT</span>
+							<span>EST. DELIVERY DATE</span>
+						</div>
+						<div class="list-content">
+							<span>Name Surname <span>State country</span></span>
+							<span>Name Surname <span>State country</span></span>
+							<span>TrackingID</span>
+							<span>₦Amount</span>
+							<span>new Date() <span class="success">Delivered</span> </span>
+						</div>
+						<div class="list-content">
+							<span>Name Surname <span>State country</span></span>
+							<span>Name Surname <span>State country</span></span>
+							<span>TrackingID</span>
+							<span>₦Amount</span>
+							<span>new Date() <span class="pending">In transit</span> </span>
+						</div>
+						<div class="list-content">
+							<span>Name Surname <span>State country</span></span>
+							<span>Name Surname <span>State country</span></span>
+							<span>TrackingID</span>
+							<span>₦Amount</span>
+							<span>new Date() <span class="failed">Failed</span> </span>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+	</body>
+</html>

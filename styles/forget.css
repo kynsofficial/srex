@@ -1,0 +1,87 @@
+.login {
+	background-image: url('../assets/images/loginBg.png');
+	max-width: 1440px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 50px 0;
+}
+.login section {
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0px 4px 14px 0px rgba(82, 100, 116, 0.08);
+	display: flex;
+	flex-direction: column;
+	margin: 3.125rem auto;
+	width: 700px;
+	padding: 3.125rem 5%;
+	gap: 30px;
+	max-width: 90%;
+}
+.login h3 {
+	font-family: kanitRegular;
+}
+.login span {
+	font-family: rubikRegular;
+	line-height: 22px;
+}
+.login form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.login .label {
+	font-family: kanitRegular;
+}
+.login div {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	flex: 1;
+}
+.login .inputContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 0.9375rem;
+}
+.login input {
+	border-radius: 5px;
+	background: #f6f9ff;
+	border: none;
+	height: 60px;
+	padding-left: 15px;
+	font-family: soruce-serif;
+	max-width: 100%;
+}
+.login input::placeholder {
+	color: #969696;
+}
+
+.login .remember {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.remember > span {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.dont {
+	text-align: center;
+	width: 100%;
+	font-family: rubikRegular;
+}
+span a {
+	color: var(--secondaryColor);
+}
+@media (max-width: 900px) {
+	.button {
+		width: 100%;
+	}
+}

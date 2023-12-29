@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login Srex</title>
+		<link rel="stylesheet" href="./styles/fonts.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="stylesheet" href="./styles/login.css" />
+	</head>
+	<body class="login">
+		<h1 class="rubikEBold">SREX</h1>
+		<section>
+			<h3>Welcome Back</h3>
+			<p>Sign in to your account</p>
+
+			<form>
+				<div>
+					<label for="email" class="label">Email address</label>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						class="input"
+						placeholder="srexuser@gmail.com"
+					/>
+				</div>
+				<div>
+					<label for="password" class="label">Password</label>
+					<input
+						type="password"
+						name="password"
+						id="password"
+						class="input"
+						placeholder="Enter a password"
+					/>
+				</div>
+				<div class="remember">
+					<span>
+						<input type="checkbox" id="remember" />
+						<label for="remember">Remember me</label>
+					</span>
+					<a href="/forget">Forgot password?</a>
+				</div>
+
+				<button type="submit" class="button">Login</button>
+				<span class="dont">
+					Don’t have an account?
+					<a href="/signup.html"> Sign up </a>
+				</span>
+			</form>
+		</section>
+	</body>
+</html>

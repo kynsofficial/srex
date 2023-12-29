@@ -1,0 +1,58 @@
+@font-face {
+	font-family: rubikRegular;
+	src: url('../assets/fonts/Rubik/Rubik-Regular.ttf');
+}
+@font-face {
+	font-family: rubikBold;
+	src: url('../assets/fonts/Rubik/Rubik-Bold.ttf');
+}
+@font-face {
+	font-family: rubikEBold;
+	src: url('../assets/fonts/Rubik/Rubik-ExtraBold.ttf');
+}
+@font-face {
+	font-family: kanitLight;
+	src: url('../assets/fonts/Kanit/Kanit-Light.ttf');
+}
+@font-face {
+	font-family: kanitRegular;
+	src: url('../assets/fonts/Kanit/Kanit-Regular.ttf');
+}
+@font-face {
+	font-family: kanitBold;
+	src: url('../assets/fonts/Kanit/Kanit-Bold.ttf');
+}
+@font-face {
+	font-family: kanitEBold;
+	src: url('../assets/fonts/Kanit/Kanit-ExtraBold.ttf');
+}
+@font-face {
+	font-family: source-serif;
+	src: url('../assets/fonts/Source_Serif_PRO/SourceSerifPro-Regular.otf');
+}
+@font-face {
+	font-family: source-serifBold;
+	src: url('../assets/fonts/Source_Serif_PRO/SourceSerifPro-Bold.otf');
+}
+
+.rubikRegular {
+	font-family: rubikRegular;
+}
+.rubikBold {
+	font-family: rubikBold;
+}
+.rubikEBold {
+	font-family: rubikEBold;
+}
+.kanitRegular {
+	font-family: kanitRegular;
+}
+.kanitBold {
+	font-family: kanitBold;
+}
+.kanitEBold {
+	font-family: kanitEBold;
+}
+.serif {
+	font-family: soruce-serif;
+}

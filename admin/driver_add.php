@@ -1,0 +1,55 @@
+<?php
+	include 'include/session.php';
+
+	if(isset($_POST['add'])){
+		$firstname = $_POST['firstname'];
+		$lastname = $_POST['lastname'];
+		$username = $_POST['username'];
+		$email = $_POST['email'];
+		$password = $_POST['password'];
+		$address = $_POST['address'];
+		$contact = $_POST['contact'];
+		$type = 1;
+
+		$conn = $pdo->open();
+
+		$stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM drivers WHERE email=:email");
+		$stmt->execute(['email'=>$email]);
+		$row = $stmt->fetch();
+
+		$stmt = $conn->prepare("SELECT COUNT(*) AS numrows FROM drivers WHERE username=:username");
+		$stmt->execute(['username'=>$username]);
+		$iow = $stmt->fetch();
+
+		if($row['numrows'] > 0){
+			$_SESSION['error'] = 'Email already taken';
+		}elseif ($iow['numrows'] > 0) {
+			$_SESSION['error'] = 'Username already taken';
+		}
+		else{
+			$password = password_hash($password, PASSWORD_DEFAULT);
+			// $filename = $_FILES['photo']['name'];
+			$now = date('Y-m-d');
+			// if(!empty($filename)){
+			// 	move_uploaded_file($_FILES['photo']['tmp_name'], 'images/'.$filename);
+			// }
+			try{
+				$stmt = $conn->prepare("INSERT INTO drivers (username, email, password, type, firstname, lastname, address, contact_info, status, created_on) VALUES (:username, :email, :password, :type, :firstname, :lastname, :address, :contact, :status, :created_on)");
+				$stmt->execute(['username'=>$username, 'email'=>$email, 'password'=>$password, 'type'=>$type, 'firstname'=>$firstname, 'lastname'=>$lastname, 'address'=>$address, 'contact'=>$contact, 'status'=>1, 'created_on'=>$now]);
+				$_SESSION['success'] = 'Driver added successfully';
+
+			}
+			catch(PDOException $e){
+				$_SESSION['error'] = $e->getMessage();
+			}
+		}
+
+		$pdo->close();
+	}
+	else{
+		$_SESSION['error'] = 'Fill up driver form first';
+	}
+
+	header('location: drivers');
+
+?>
