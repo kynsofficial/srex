@@ -167,7 +167,7 @@ if(isset($_GET['tracking_id'])){
 									$('#parcel_history').html('')
 									Object.keys(resp).map(function(k){
 										var tl = $('#clone_timeliner-item .iitem').clone()
-										tl.find('.dtime').text(resp[k].date_created)
+										tl.find('.dtime').text(resp[k].date_assigned)
 										tl.find('.timeliner-body').text(resp[k].status)
 										tl.find('.other').text(resp[k].comment)
 										$('#parcel_history').append(tl)

@@ -206,39 +206,35 @@
                       $stmt->execute();
                       $i = 0;
                       foreach($stmt as $row){
-                        if ($row['status'] == 0) {
-                          $status = '<div class="badge bg-label-warning">Awaiting Payment</div>';
+                        if ($row['status'] == 0) { // Goods is awaiting pickup/drop from driver/agency
+                          $status = '<div class="badge bg-label-warning">Awaiting Pickup/Drop</div>';
                           // echo '<div class="badge badge-warning">Pending</div>';
                         }
-                        elseif ($row['status'] == 1) {
-                          $status = '<div class="badge bg-label-success">Completed</div>';
+                        elseif ($row['status'] == 1) { // Order has been delivered successfully
+                          $status = '<div class="badge bg-label-success">Delivered</div>';
                           // echo '<div class="badge badge-success">Successfull</div>';
                         }
-                        elseif ($row['status'] == 2) {
+                        elseif ($row['status'] == 2) { // Order has been approved by Srex and has beem given to a driver
                           $status = '<div class="badge bg-label-info">Proccessing Order</div>';
                           // echo '<div class="badge badge-success">Successfull</div>';
                         }
-                        elseif ($row['status'] == 3) {
-                          $status = '<div class="badge bg-label-secondary">Funds Refunded</div>';
+                        elseif ($row['status'] == 3) { // Order has been returned because it was not delivered
+                          $status = '<div class="badge bg-label-secondary">Returned/Funds Refunded</div>';
                           // echo '<div class="badge badge-success">Successfull</div>';
                         }
-                        elseif ($row['status'] == 4) {
-                          $status = '<div class="badge bg-label-danger">Order Cancelled</div>';
+                        elseif ($row['status'] == 4) { // Order has reached the destination and is awaiting delivery/pickup
+                          $status = '<div class="badge bg-label-info">Reached Destination Awaiting Pickup</div>';
                           // echo '<div class="badge badge-success">Successfull</div>';
                         }
-                        elseif ($row['status'] == 5) {
+                        elseif ($row['status'] == 5) { // Order is on the way
                           $status = '<div class="badge bg-label-primary">Shipping in Progress</div>';
                           // echo '<div class="badge badge-success">Successfull</div>';
                         }
-                        elseif ($row['status'] == 6) {
-                          $status = '<div class="badge bg-label-warning">Error in Product</div>';
+                        elseif ($row['status'] == 6) { // Order has been canceled
+                          $status = '<div class="badge bg-label-danger">Order Canceled</div>';
                           // echo '<div class="badge badge-success">Successfull</div>';
                         }
-                        elseif ($row['status'] == 7) {
-                          $status = '<div class="badge bg-label-danger">Unsuccessfull Order</div>';
-                          // echo '<div class="badge badge-success">Successfull</div>';
-                        }
-                        else {
+                        else { // We no know, something just sup sha
                           $status = '<div class="badge bg-label-dark">Error</div>';
                         }
 

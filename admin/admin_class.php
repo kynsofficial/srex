@@ -18,16 +18,16 @@ Class Action {
 	function get_parcel_heistory(){
 		extract($_POST);
 		$data = array();
-		$parcel = $this->db->query("SELECT * FROM parcels where reference_number = '$ref_no'");
+		$parcel = $this->db->query("SELECT * FROM shippments where ref_id = '$ref_no' AND status != 0");
 		if($parcel->num_rows <=0){
 			return 2;
 		}else{
 			$parcel = $parcel->fetch_array();
-			$data[] = array('status'=>'Item accepted by Courier','comment'=>$parcel['comment'],'date_created'=>date("M d, Y h:i A",strtotime($parcel['date_created'])));
+			$data[] = array('status'=>'Item accepted by Courier','comment'=>$parcel['comment'],'date_assigned'=>date("M d, Y h:i A",strtotime($parcel['date_assigned'])));
 			$history = $this->db->query("SELECT * FROM parcel_tracks where parcel_id = {$parcel['id']}");
-			$status_arr = array("Item Accepted by Courier","Collected","Shipped","In-Transit","Arrived At Destination","Out for Delivery","Ready to Pickup","Delivered","Picked-up","Unsuccessfull Delivery Attempt");
+			$status_arr = array("Item Accepted by Driver","Collected","Shipped","In-Transit","Arrived At Destination","Delivered","Return");
 			while($row = $history->fetch_assoc()){
-				$row['date_created'] = date("M d, Y h:i A",strtotime($row['date_created']));
+				$row['date_assigned'] = date("M d, Y h:i A",strtotime($row['date_assigned']));
 				$row['status'] = $status_arr[$row['status']];
 				$data[] = $row;
 			}
@@ -39,7 +39,7 @@ Class Action {
 		extract($_POST);
 		$data = array();
 		$get = $this->db->query("SELECT * FROM parcels where date(date_created) BETWEEN '$date_from' and '$date_to' ".($status != 'all' ? " and status = $status " : "")." order by unix_timestamp(date_created) asc");
-		$status_arr = array("Item Accepted by Courier","Collected","Shipped","In-Transit","Arrived At Destination","Out for Delivery","Ready to Pickup","Delivered","Picked-up","Unsuccessfull Delivery Attempt");
+		$status_arr = array("Item Accepted by Courier","Collected","Shipped","In-Transit","Arrived At Destination","Delivered","Return");
 		while($row=$get->fetch_assoc()){
 			$row['sender_name'] = ucwords($row['sender_name']);
 			$row['recipient_name'] = ucwords($row['recipient_name']);

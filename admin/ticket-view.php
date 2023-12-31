@@ -136,6 +136,13 @@
                                 </div>
                               ';
                             }
+                            elseif ($user['google_id'] !== "") {
+                              echo '
+                                <div class="flex-shrink-0 avatar avatar-online">
+                                  <img src="'.$user['photo'].'" alt="Avatar" class="rounded-circle">
+                                </div>
+                              ';
+                            }
                             else{
                               echo '
                                 <div class="flex-shrink-0 avatar avatar-online">
@@ -220,6 +227,13 @@
                             <div class="avatar avatar-md avatar-online">
                               <span class="avatar-initial rounded-circle bg-label-success">'.$user['username'][0].'</span>
                             </div>
+                          </div>
+                        ';
+                      }
+                      elseif ($user['google_id'] !== "") {
+                        echo '
+                          <div class="flex-shrink-0 avatar avatar-online">
+                            <img src="'.$user['photo'].'" alt="Avatar" class="rounded-circle">
                           </div>
                         ';
                       }

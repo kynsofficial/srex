@@ -90,45 +90,79 @@
 						<span>Tracking ID</span>
 						<span>AMOUNT</span>
 						<span>EST. DELIVERY DATE</span>
+						<span>STATUS</span>
 					</div>
 					<?php
 
 						$conn = $pdo->open();
 
 						try{
-						$stmt = $conn->prepare("SELECT * FROM shipments WHERE userid=:userid ORDER BY id DESC");
-						$stmt->execute(['userid'=>$user['id']]);
-						$i = 0;
-						foreach($stmt as $row){
-							if ($row['status'] == 0) {
-							$status = '<span class="failed">Failed</span>';
+							$stmt = $conn->prepare("SELECT * FROM shippments WHERE userid=:userid ORDER BY id DESC");
+							$stmt->execute(['userid'=>$user['id']]);
+							$i = 0;
+							foreach($stmt as $row){
+								if ($row['status'] == 0) { // Goods is awaiting pickup/drop from driver/agency
+									$status = '<div class="status pending">Awaiting Pickup/Drop</div>';
+									// echo '<div class="status status-warning">Pending</div>';
+								}
+								elseif ($row['status'] == 1) { // Order has been delivered successfully
+									$status = '<div class="status success">Delivered</div>';
+									// echo '<div class="status status-success">Successfull</div>';
+								}
+								elseif ($row['status'] == 2) { // Order has been approved by Srex and has beem given to a driver
+									$status = '<div class="status pending">Proccessing Order</div>';
+									// echo '<div class="status status-success">Successfull</div>';
+								}
+								elseif ($row['status'] == 3) { // Order has been returned because it was not delivered
+									$status = '<div class="status secondary">Returned/Funds Refunded</div>';
+									// echo '<div class="status status-success">Successfull</div>';
+								}
+								elseif ($row['status'] == 4) { // Order has reached the destination and is awaiting delivery/pickup
+									$status = '<div class="status pending">Reached Destination Awaiting Pickup</div>';
+									// echo '<div class="status status-success">Successfull</div>';
+								}
+								elseif ($row['status'] == 5) { // Order is on the way
+									$status = '<div class="status pending">Shipping in Progress</div>';
+									// echo '<div class="status status-success">Successfull</div>';
+								}
+								elseif ($row['status'] == 6) { // Order has been canceled
+									$status = '<div class="status failed">Order Canceled</div>';
+									// echo '<div class="status status-success">Successfull</div>';
+								}
+								else { // We no know, something just sup sha
+									$status = '<div class="status dark">Error</div>';
+								}
+	
+								// if ($row['status'] == 0) {
+								// $status = '<span class="status failed">Failed</span>';
+								// }
+								// if ($row['status'] == 1) {
+								// $status = '<span class="status success">Delivered</span>';
+								// }
+								// if ($row['status'] == 2) {
+								// $status = '<span class="status pending">In Transit</span>';
+								// }
+	
+								$amount = $settings['currency'].''.number_format($row['amount'], 2);
+	
+	
+								?>
+								<?php
+								echo"
+								<div class='list-content'>
+									<span>".$row['sender_name']." <span>".$row['sender_state']." ".$row['sender_country']."</span></span>
+									<span>".$row['receiver_name']." <span>".$row['receiver_state']." ".$row['receiver_country']."</span></span>
+									<span><a class='dropdown-item' href='track?tracking_id=".$row['ref_id']."'>".$row['ref_id']."</a></span>
+									<span>".$amount."</span>
+									<span>".$row['date_estimate_delivery']."</span>
+									<span>".$status."</span>
+								</div>
+								";
+								}
 							}
-							if ($row['status'] == 1) {
-							$status = '<span class="success">Delivered</span>';
+							catch(PDOException $e){
+								echo $e->getMessage();
 							}
-							if ($row['status'] == 2) {
-							$status = '<span class="pending">In Transit</span>';
-							}
-
-							$amount = $settings['currency'].''.number_format($row['amount'], 2);
-
-
-							?>
-							<?php
-							echo"
-							<div class='list-content'>
-								<span>".$row['sender_name']." <span>".$row['sender_state']." ".$row['sender_country']."</span></span>
-								<span>".$row['receiver_name']." <span>".$row['receiver_state']." ".$row['receiver_country']."</span></span>
-								<span>".$row['tracking_id']."</span>
-								<span>".$amount."</span>
-								<span>".$row['date_delivered']." ".$status." </span>
-							</div>
-							";
-							}
-						}
-						catch(PDOException $e){
-							echo $e->getMessage();
-						}
 
 						$pdo->close();
 					?>

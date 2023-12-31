@@ -18,6 +18,13 @@ try{
   $stmt1->execute();
   $rates = $stmt1->fetch();
 
+  // if driver is assigned
+  if($details['driver_assigned'] == 1){
+    $stmt = $conn->prepare("SELECT * FROM drivers WHERE id = :id");
+    $stmt->execute(['id' => $details['driver_assigned_id']]);
+    $driver = $stmt->fetch();
+  }
+
   if ($details != TRUE) {
     // echo "Not Valid";
     echo "<script>window.location.assign('404')</script>";
@@ -143,29 +150,36 @@ catch(PDOException $e){
                           <?php
 
                           if ($details['status'] == 0) {
-                            // Not made payment
-                            echo "<span class='fw-semibold badge bg-warning'>Awaiting Pickup</span>";
-                          }elseif ($details['status'] == 1) {
-                            // We have settle the supplier
+                            // Goods is awaiting pickup/drop from driver/agency
+                            echo "<span class='fw-semibold badge bg-warning'>Awaiting Pickup/Drop</span>";
+                          }
+                          elseif ($details['status'] == 1) {
+                            // Order has been delivered successfully
                             echo "<span class='fw-semibold badge bg-success'>Successfully Delivered</span>";
-                          }elseif ($details['status'] == 2) {
-                            // Made payment
+                          }
+                          elseif ($details['status'] == 2) {
+                            // Order has been approved by Srex and has beem given to a driver
                             echo "<span class='fw-semibold badge bg-info'>Proccessing Order</span>";
-                          }elseif ($details['status'] == 3) {
-                            // We refunded you back
-                            echo "<span class='fw-semibold badge bg-secondary'>Funds Refunded</span>";
-                          }elseif ($details['status'] == 4) {
-                            // You cancelled the order
-                            echo "<span class='fw-semibold badge bg-danger'>Order Cancelled</span>";
-                          }elseif ($details['status'] == 5) {
-                            // Shipping in progress
+                          }
+                          elseif ($details['status'] == 3) {
+                            // Order has been returned because it was not delivered
+                            echo "<span class='fw-semibold badge bg-secondary'>Order Returned</span>";
+                          }
+                          elseif ($details['status'] == 4) {
+                            // Order has reached the destination and is awaiting delivery/pickup
+                            echo "<span class='fw-semibold badge bg-danger'>Reached Destination Awaiting Pickup</span>";
+                          }
+                          elseif ($details['status'] == 5) {
+                            // Order is on the way
                             echo "<span class='fw-semibold badge bg-primary'>Shipping in Progress</span>";
-                          }elseif ($details['status'] == 6) {
-                            // Shipping in progress
-                            echo "<span class='fw-semibold badge bg-warning'>Error in Product</span>";
-                          }elseif ($details['status'] ==7) {
-                            // Shipping in progress
-                            echo "<span class='fw-semibold badge bg-danger'>Unsuccessfull Order</span>";
+                          }
+                          elseif ($details['status'] == 6) {
+                            // Order is on the way
+                            echo "<span class='fw-semibold badge bg-danger'>Order Canceled</span>";
+                          }
+                          else{
+                            // We no know, something just sup sha
+                            echo "<span class='fw-semibold badge bg-dark'>Error</span>";
                           }
 
                           ?>
@@ -192,6 +206,15 @@ catch(PDOException $e){
                         <p class="mb-1"><?php echo $details['receiver_phone']; ?></p>
                         <p class="mb-0"><?php echo $details['receiver_email']; ?></p>
                       </div>
+                      <?php if($details['driver_assigned'] == 1): ?>
+                      <div class="col-xl-6 col-md-12 col-sm-6 col-12 mb-xl-0 mb-md-4 mb-sm-0 mb-4 mt-4">
+                        <h6 class="pb-2">Driver:</h6>
+                        <b class="mb-1"><?php echo $driver['firstname']." ".$driver['lastname']; ?></b>
+                        <p class="mb-1"><?php echo $driver['state'].", ".$driver['country']; ?></p>
+                        <p class="mb-1"><?php echo $driver['contact_info']; ?></p>
+                        <p class="mb-0"><?php echo $driver['email']; ?></p>
+                      </div>
+                      <?php endif; ?>
                     </div>
                   </div>
 
@@ -265,6 +288,7 @@ catch(PDOException $e){
                               <span class="me-1">Shipping Plan: <b><?php echo ucwords($orders['shipping_rate_type']); ?></b><br>
                               <span class="me-1">Shipping Rate: <b><?php echo $settings['currency'].number_format($order_weight_amount, 2); ?></b><br>
                               <span class="me-1">Shipping Period: <b><?php echo $orders['shipping_rate_period']; ?> Day(s)</b><br>
+                              <span class="me-1">Estimated Delivery Date: <b><?php echo $orders['date_estimate_delivery']; ?></b><br>
                             </p>
                           </td>
                           <td class="text-end px-4 py-5">
@@ -311,20 +335,40 @@ catch(PDOException $e){
                           <div class="col-12 mb-xl-0 mb-3 mt-3">
                             <h6 class="fw-bold mb-0">Order Actions</h6>
                             <div class="btn-toolbar demo-inline-spacing" role="toolbar" aria-label="Toolbar with button groups">
-
-                              <div class="btn-group" role="group" aria-label="Second group">
-                                <!-- <div class="btn-group" role="group">
-                                  <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="tf-icons bx bx-info-circle"></i> Process Order</button>
-                                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                    <a class="dropdown-item bg-label-primary" data-bs-toggle="modal" data-bs-target="#deliveryOrder" href="javascript:void(0);"><i class="bx bx-package"></i> Set to Delivery in progress</a>
-                                    <a class="dropdown-item bg-label-success" data-bs-toggle="modal" data-bs-target="#approveOrder" href="javascript:void(0);"><i class="bx bx-check"></i> Set as Delivered</a>
-                                    <a class="dropdown-item bg-label-danger" data-bs-toggle="modal" data-bs-target="#disapproveOrder" href="javascript:void(0);"><i class="bx bx-x"></i> Set as Unsuccessfull</a>
-                                  </div>
-                                </div> -->
-                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#approveOrder"><i class="tf-icons bx bx-check"></i> Accept Order</button>
+                                  
+                                <!-- <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#acceptOrder"><i class="tf-icons bx bx-check"></i> Accept Order</button>
+                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#assignDriver"><i class="tf-icons bx bx-user"></i> Assign Driver</button>
+                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#approveOrder"><i class="tf-icons bx bx-check"></i> Set as Delivered</button>
                                 <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#refundOrder"><i class="tf-icons bx bx-redo"></i> Refund Order</button>
                                 <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
-                                <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#cancelOrder"><i class="tf-icons bx bx-x"></i> Cancel Order</button>
+                                <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#cancelOrder"><i class="tf-icons bx bx-x"></i> Cancel Order</button> -->
+
+                              <div class="btn-group" role="group" aria-label="Second group">
+                                <?php if($orders['status'] == 0): ?>
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#acceptOrder"><i class="tf-icons bx bx-check"></i> Accept Order</button>
+                                  <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#refundOrder"><i class="tf-icons bx bx-redo"></i> Refund Order</button>
+                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
+                                  <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#cancelOrder"><i class="tf-icons bx bx-x"></i> Cancel Order</button>
+                                <?php elseif($orders['status'] == 1): ?>
+                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
+                                <?php elseif($orders['status'] == 2): ?>
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#assignDriver"><i class="tf-icons bx bx-user"></i> Assign Driver</button>
+                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
+                                <?php elseif($orders['status'] == 3): ?>
+                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
+                                <?php elseif($orders['status'] == 4): ?>
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#approveOrder"><i class="tf-icons bx bx-check"></i> Set as Delivered</button>
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#updateStatus"><i class="tf-icons bx bx-current-location"></i> Update Status</button>
+                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
+                                <?php elseif($orders['status'] == 5): ?> 
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#approveOrder"><i class="tf-icons bx bx-check"></i> Set as Delivered</button>
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#updateStatus"><i class="tf-icons bx bx-current-location"></i> Update Status</button>
+                                  <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#cancelOrder"><i class="tf-icons bx bx-x"></i> Cancel Order</button>
+                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
+                                <?php elseif($orders['status'] == 6): ?>
+                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
+                                <?php endif; ?>
+                                <!-- <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button> -->
                               </div>
                             </div>
                           </div>
@@ -393,518 +437,7 @@ catch(PDOException $e){
     <div class="drag-target"></div>
   <!-- </div> -->
 
-  <!-- refund payment Modal -->
-  <div class="modal fade" id="refundPayment" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="refundPaymentTitle">Are you sure you want to refund this payment?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="modal-body">
-          <form action="order_action" method="POST">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">You won't be able to revert this!</h5>
-              <textarea name="reason" rows="8" cols="80" class="form-control" placeholder="Enter reason" required></textarea>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="refund" value="refund" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- disapprove payment Modal -->
-  <div class="modal fade" id="disapprovePayment" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="disapprovePaymentTitle">Are you sure you want to disapprove this payment?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <form action="order_action" method="POST">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">You won't be able to revert this!</h5>
-              <textarea name="reason" rows="8" cols="80" class="form-control" placeholder="Enter reason" required></textarea>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="disapprove" value="disapprove" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- approve payment Modal -->
-  <div class="modal fade" id="approveGoodsPayment" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="approveGoodsPaymentTitle">Are you sure you want to approve this Goods payment?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">Be sure you have received the funds, You won't be able to revert this!</h5>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-          <form action="order_action" method="POST">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="approve_goods" value="approve" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          </form>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- approve payment Modal -->
-  <div class="modal fade" id="approveShippingPayment" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="approveShippingPaymentTitle">Are you sure you want to approve this Shipping payment?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">Be sure you have received the funds, You won't be able to revert this!</h5>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-          <form action="order_action" method="POST">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="approve_shipping" value="approve" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          </form>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- approve payment Modal -->
-  <div class="modal fade" id="approvePaymentNew" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="approvePaymentNewTitle">Are you sure you want to approve this payment?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">Be sure you have received the funds, You won't be able to revert this!</h5>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-          <form action="order_action" method="POST">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="approve" value="approve" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          </form>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- approve commitment fee payment Modal -->
-  <div class="modal fade" id="approvePaymentCommitment" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="approvePaymentCommitmentTitle">Are you sure you want to approve this payment?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">Be sure you have received the funds, You won't be able to revert this!</h5>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-          <form action="order_action" method="POST">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="approve_commitment" value="approve_commitment" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          </form>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- disapprove payment Modal -->
-  <div class="modal fade" id="disapprovePaymentCommitment" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="disapprovePaymentCommitmentTitle">Are you sure you want to disapprove this payment?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <form action="order_action" method="POST">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">You won't be able to revert this!</h5>
-              <textarea name="reason" rows="8" cols="80" class="form-control" placeholder="Enter reason"></textarea>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="disapprove_commitment" value="disapprove_commitment" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- delivery order Modal -->
-  <div class="modal fade" id="deliveryOrder" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="deliveryOrder">Are you sure you want to set this order status to Delivery in progress?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5>Package should be on it's way to the customer's location.</h5>
-              <p>If this is correct, click on the yes button to set the status as delivery in progress.</p>
-              <!-- <h5 class="text-center">You won't be able to revert this!</h5> -->
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-          <form action="order_action" method="POST">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="delivery_order" value="delivery_order" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          </form>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- approve order Modal -->
-  <div class="modal fade" id="approveOrder" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="approveOrder">Are you sure you want to set this order as completed?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5>Package should have arrived at the customer's location.</h5>
-              <p>If completed, click on the yes button to confirm the order.</p>
-              <!-- <h5 class="text-center">You won't be able to revert this!</h5> -->
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-          <form action="order_action" method="POST">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="approve_order" value="approve_order" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          </form>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- disapprove order Modal -->
-  <div class="modal fade" id="disapproveOrder" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="disapproveOrderTitle">Are you sure you want to set this order as Unsuccessfull?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <form action="order_action" method="POST">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">You won't be able to revert this!</h5>
-              <textarea name="reason" rows="8" cols="80" class="form-control" placeholder="Enter reason" required></textarea>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="disapprove_order" value="disapprove_order" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- refund order Modal -->
-  <div class="modal fade" id="refundOrder" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="refundOrderTitle">Are you sure you want to refund this order?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <form action="order_action" method="POST">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">You won't be able to revert this!</h5>
-              <textarea name="reason" rows="8" cols="80" class="form-control" placeholder="Enter reason" required></textarea>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="refund_order" value="refund_order" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- cancel order Modal -->
-  <div class="modal fade" id="cancelOrder" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="cancelOrderTitle">Are you sure you want to cancel this order?</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <hr>
-        <form action="order_action" method="POST">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-center">You won't be able to revert this!</h5>
-              <textarea name="reason" rows="8" cols="80" class="form-control" placeholder="Enter reason" required></textarea>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="modal-footer">
-            <input type="hidden" name="userid" value="<?php echo $user['id']; ?>">
-            <input type="hidden" name="ref_id" value="<?php echo $details['ref_id']; ?>">
-            <input type="hidden" name="id" value="<?php echo $details['id']; ?>">
-            <button type="submit" name="cancel_order" value="cancel_order" class="btn btn-success"><i class="bx bx-check"></i> Yes</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bx bx-x"></i> No</button>
-        </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Share Modal -->
-  <div class="modal fade" id="shareLink" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-simple modal-refer-and-earn">
-      <div class="modal-content p-3 p-md-5">
-        <div class="modal-body">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
-          <h5 class="mt-2">Share this invoice</h5>
-          <form class="row g-3" onsubmit="return false">
-            <div class="col-lg-8">
-              <label class="form-label" for="modalRnFLink">You can also copy and share it on your social media 🥳</label>
-              <div class="input-group input-group-merge">
-                <input type="text" id="modalRnFLink" class="form-control" value="<?php echo $settings['site_url']; ?>view-order?id=<?php echo $orders['ref_id']; ?>">
-                <span class="input-group-text text-primary cursor-pointer" onclick="copyLink()" id="basic-addon33"><i class='bx bx-copy bx-xs' ></i> Copy link</span>
-              </div>
-            </div>
-            <div class="col-lg-4 d-flex align-items-end">
-              <div class="btn-social">
-                <?php
-                $text1 = "Hey there, check out my invoice on ".$settings['site_name'].". ".$settings['site_url']."view-order?id=".$orders['ref_id'].".";
-                $text = urlencode($text1);
-                // echo urlencode($text);
-                ?>
-                <a href="https://wa.me?text=<?php echo $text; ?>" data-action="share/whatsapp/share" rel="noopener" target="_blank" class="btn btn-icon btn-success mr-2"><i class="tf-icons bx bxl-whatsapp"></i></a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $settings['site_url']; ?>view-order?id=<?php echo $orders['ref_id']; ?>&t=<?php echo $text; ?>" rel="noopener" target="_blank" class="btn btn-icon btn-facebook mr-2"><i class="tf-icons bx bxl-facebook"></i></a>
-                <a href="https://www.twitter.com/intent/tweet?text=<?php echo $text; ?>" rel="noopener" target="_blank" class="btn btn-icon btn-twitter mr-2"><i class="tf-icons bx bxl-twitter"></i></a>
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $settings['site_url']; ?>view-order?id=<?php echo $orders['ref_id']; ?>&title=<?php echo $text; ?>" target="_blank" class="btn btn-icon btn-linkedin"><i class="tf-icons bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="ticket_supplier">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title"><b>Create New Ticket for <?php echo $details['ref_id']; ?></b></h4>
-          <button type="button" class="close btn" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span></button>
-          </div>
-          <div class="modal-body">
-            <form action="ticket-new" method="post" accept-charset="utf-8">
-              <div class="form-group mb-3">
-                <label for="subject">Subject</label>
-                <input type="text" placeholder="Subject" id="subject_supplier" name="subject" formcontrolname="subject" class="form-control ng-pristine ng-valid ng-touched" required>
-              </div>
-              <div class="row">
-                <div class="form-group mb-3 col-md-6">
-                  <label for="subject">Assign to [User]</label>
-                  <select name="userId" class="select2 form-select" required>
-                    <option value="<?php echo $user['id']; ?>" selected><?php echo $user['firstname'].' '.$user['lastname']; ?></option>
-                  </select>
-                </div>
-                <div class="form-group mb-3 col-md-6">
-                  <label for="subject">Assign to [Admin]</label>
-                  <select name="assignedTo" class="select2 form-select" required>
-                    <option value="" selected disabled hidden>Choose Here</option>
-                    <?php
-                    $conn = $pdo->open();
-
-                    try{
-                      $stmt = $conn->prepare("SELECT * FROM users WHERE type = 1");
-                      $stmt->execute();
-                      foreach($stmt as $admin_ticket){
-                        if ($admin_ticket['id'] == $admin['id']) {
-                          $admin_cheked = "selected";
-                        }else {
-                          $admin_cheked = '';
-                        }
-                        echo "
-                        <option value='".$admin_ticket['id']."' ".$admin_cheked.">".$admin_ticket['firstname'].' '.$admin_ticket['lastname']."</option>
-                        ";
-                      }
-                    }
-                    catch(PDOException $e){
-                      echo $e->getMessage();
-                    }
-
-                    $pdo->close();
-                    ?>
-                  </select>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-group mb-3 col-md-6">
-                  <label for="subject">Category</label>
-                  <select name="category" class="select2 form-select" required>
-                    <option value='Shippment' selected>Shippments</option>
-                  </select>
-                </div>
-                <div class="form-group mb-3 col-md-6">
-                  <label for="priority">Priority</label>
-                  <select name="priority" class="select2 form-select" required>
-                    <option value="" selected disabled hidden>Choose Here</option>
-                    <option value="high">High</option>
-                    <option value="medium">Medium</option>
-                    <option value="low">Low</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group mb-3">
-                <label for="text-area-1">Message</label>
-                <textarea name="message" id="message_supplier" rows="10" placeholder="Detail the issue here" class="form-control" required></textarea>
-              </div>
-              <button class="btn btn-primary w-100" name="save"><i class="bx bx-plus"></i> Create</button>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default btn-rounded pull-left" data-bs-dismiss="modal"><i class="bx bx-x"></i> Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- description order Modal -->
-    <div class="modal fade" id="descriptionOrder" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="descriptionOrder">Shipping Description</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <hr>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col">
-                <h5>Shippment Description</h5>
-                <p><?php echo $orders['item_description']; ?></p>
-                <!-- <h5 class="text-center">You won't be able to revert this!</h5> -->
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-info" data-bs-dismiss="modal"><i class="bx bx-x"></i> Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+  <?php include 'includes/order_modal.php'; ?>
 
 
   <!-- / Layout wrapper -->

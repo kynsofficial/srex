@@ -76,7 +76,7 @@
             <div data-i18n="All Orders">All Orders</div>
           </a>
         </li>
-        <li class="menu-item <?php if ($page_url == "order-new") {  echo "active";  } ?>">
+        <!-- <li class="menu-item <?php if ($page_url == "order-new") {  echo "active";  } ?>">
           <a href="order-new" class="menu-link">
             <div data-i18n="Create New Order">Create New Order</div>
           </a>
@@ -120,7 +120,7 @@
           <a href="order-payments" class="menu-link">
             <div data-i18n="Payments">Payments</div>
           </a>
-        </li>
+        </li> -->
       </ul>
     </li>
 
@@ -180,12 +180,12 @@
       </a>
     </li>
 
-    <li class="menu-item <?php if ($page_url == "coupons") {  echo "active";  } ?>">
+    <!-- <li class="menu-item <?php if ($page_url == "coupons") {  echo "active";  } ?>">
       <a href="coupons" class="menu-link">
         <i class="menu-icon tf-icons bx bx-purchase-tag"></i>
         <div data-i18n="Coupons">Coupons</div>
       </a>
-    </li>
+    </li> -->
     <!-- Apps & Pages -->
     <li class="menu-header small text-uppercase">
       <span class="menu-header-text">Misc</span>
