@@ -1,4 +1,11 @@
-<?php include 'includes/head-user.php'; ?><!-- Theme style -->
+<?php include 'includes/head-user.php'; ?>
+<?php
+if(isset($_GET['tracking_id'])){
+  $trakingid = $_GET['tracking_id'];
+}else{
+  $trakingid = '';
+}
+?><!-- Theme style -->
 			<link rel="stylesheet" href="<?php echo $settings['site_url']; ?>styles/track.css" />
 	<body class="main-dashboard">
 		<div class="mobile-overlay" onclick="handleMobileOverLay()"></div>
@@ -13,7 +20,7 @@
                 <form>
                     <div>
                         <img src="<?php echo $settings['site_url']; ?>assets/images/search-icon.svg" alt="" />
-                        <input type="search" name="trackingNo" id="ref_no" placeholder="Tracking number"/>
+                        <input type="search" name="trackingNo" id="ref_no" placeholder="Tracking number" value="<?php echo $trakingid ?>"/>
                     </div>
                     <button class="button" id="track-btn">Track</button>
                 </form>
@@ -102,7 +109,7 @@
 									$('#parcel_history').html('')
 									Object.keys(resp).map(function(k){
 										var tl = $('#clone_timeline-item .iitem').clone()
-										tl.find('.dtime').text(resp[k].date_created)
+										tl.find('.dtime').text(resp[k].date_assigned)
 										tl.find('.timeline-body').text(resp[k].status)
 										tl.find('.other').text(resp[k].comment)
 										$('#parcel_history').append(tl)

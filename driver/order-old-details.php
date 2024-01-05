@@ -6,8 +6,8 @@ $slug = $_GET['id'];
 
 try{
 
-  $stmt = $conn->prepare("SELECT * FROM shippments WHERE ref_id = :slug");
-  $stmt->execute(['slug' => $slug]);
+  $stmt = $conn->prepare("SELECT * FROM shippments WHERE ref_id=:slug AND driver_assigned_id=:driver_assigned_id");
+  $stmt->execute(['slug' => $slug, 'driver_assigned_id'=>$admin['id']]);
   $details = $stmt->fetch();
 
   $stmt = $conn->prepare("SELECT * FROM users WHERE id = :id");
@@ -344,15 +344,7 @@ catch(PDOException $e){
                                 <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#cancelOrder"><i class="tf-icons bx bx-x"></i> Cancel Order</button> -->
 
                               <div class="btn-group" role="group" aria-label="Second group">
-                                <?php if($orders['status'] == 0): ?>
-                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#acceptOrder"><i class="tf-icons bx bx-check"></i> Accept Order</button>
-                                  <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#refundOrder"><i class="tf-icons bx bx-redo"></i> Refund Order</button>
-                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
-                                  <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#cancelOrder"><i class="tf-icons bx bx-x"></i> Cancel Order</button>
-                                <?php elseif($orders['status'] == 1): ?>
-                                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
-                                <?php elseif($orders['status'] == 2): ?>
-                                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#assignDriver"><i class="tf-icons bx bx-user"></i> Assign Driver</button>
+                                <?php if($orders['status'] == 1): ?>
                                   <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>
                                 <?php elseif($orders['status'] == 3): ?>
                                   <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#ticket_supplier" onclick="orderMsg()"><i class="tf-icons bx bx-purchase-tag-alt"></i> Create Ticket</button>

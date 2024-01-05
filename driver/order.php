@@ -60,8 +60,8 @@
 
 
             <?php
-              $stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments WHERE status=1");
-              $stmt->execute();
+              $stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments WHERE driver_assigned_id=:driver_assigned_id AND status=1");
+              $stmt->execute(['driver_assigned_id'=>$admin['id']]);
 
               $approved_orders = 0;
               foreach ($stmt as $key1) {
@@ -69,8 +69,8 @@
                 $approved_orders += $subapproved_orders;
               }
 
-              $stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments WHERE status=4 OR status=3 OR status=5");
-              $stmt->execute();
+              $stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments WHERE driver_assigned_id=:driver_assigned_id AND status=4 OR status=3 OR status=5");
+              $stmt->execute(['driver_assigned_id'=>$admin['id']]);
 
               $cancelled_orders = 0;
               foreach ($stmt as $key1) {
@@ -78,8 +78,8 @@
                 $cancelled_orders += $subcancelled_orders;
               }
 
-              $stmt1 = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments WHERE status=0 OR status=2");
-              $stmt1->execute();
+              $stmt1 = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments WHERE driver_assigned_id=:driver_assigned_id AND status=0 OR status=2");
+              $stmt1->execute(['driver_assigned_id'=>$admin['id']]);
 
               $pending_orders = 0;
               foreach ($stmt1 as $key2) {
@@ -87,8 +87,8 @@
                 $pending_orders += $subpending_orders;
               }
 
-              $stmt1 = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments");
-              $stmt1->execute();
+              $stmt1 = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM shippments WHERE driver_assigned_id=:driver_assigned_id");
+              $stmt1->execute(['driver_assigned_id'=>$admin['id']]);
 
               $total_orders = 0;
               foreach ($stmt1 as $key2) {
@@ -190,7 +190,6 @@
                   <thead>
                     <tr>
                       <th>ID</th>
-                      <th>User</th>
                       <th>Delivery Type</th>
                       <th>Amount</th>
                       <th>Order Status</th>
@@ -202,8 +201,8 @@
                     <?php
                     $conn = $pdo->open();
                     try{
-                      $stmt = $conn->prepare("SELECT * FROM shippments ORDER BY date_created DESC");
-                      $stmt->execute();
+                      $stmt = $conn->prepare("SELECT * FROM shippments WHERE driver_assigned_id=:driver_assigned_id ORDER BY date_created DESC");
+                      $stmt->execute(['driver_assigned_id'=>$admin['id']]);
                       $i = 0;
                       foreach($stmt as $row){
                         if ($row['status'] == 0) { // Goods is awaiting pickup/drop from driver/agency
@@ -245,7 +244,6 @@
                         echo "
                         <tr>
                           <td><a href='order-old-details?id=".$row['ref_id']."'>".$row['ref_id']."</a></td>
-                          <td><a href='user-details?userid=".$row['userid']."' class='btn btn-success btn-sm btn-flat' target='_blank'><i class='bx bx-show'></i> View</a></td>
                           <td>".ucwords($row['delivery_type'])."</td>
                           <td>".$settings['currency'].$amount."</td>
                           <td>".$status."</td>
@@ -277,7 +275,6 @@
 
           <!-- Footer -->
           <?php include 'includes/footer.php'; ?>
-          <?php include 'includes/users_modal.php'; ?>
           <!-- / Footer -->
 
           <div class="content-backdrop fade"></div>

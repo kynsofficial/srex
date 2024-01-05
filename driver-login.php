@@ -1,4 +1,22 @@
-<?php include 'includes/head.php'; 
+<?php include 'include/driver-session.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Srex Web | Driver Login</title>
+		<link rel="stylesheet" href="./styles/fonts.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="stylesheet" href="./styles/alerts.css" />
+		<?php
+		$css_file_name1 = pathinfo($_SERVER["SCRIPT_NAME"]);
+		$file = $_SERVER['STYLE_URL'].'/'.$css_file_name1['filename'].'.css';
+		?>
+		<link rel="stylesheet" href="<?php echo $file; ?>" />
+		<link rel="icon" href="./assets/images/favicon.png">
+	</head>
+
+<?php
 
 $conn = $pdo->open();
 try{
@@ -26,19 +44,17 @@ $now = date('d F, Y');
 ?>
 <body class="login">
 <?php
-if(isset($_SESSION['user'])){
-	echo "<script>window.location.assign('user/home')</script>";
-}
-elseif(isset($_SESSION['admin'])){
-	echo "<script>window.location.assign('admin/home')</script>";
+if(isset($_SESSION['driver'])){
+	echo "<script>window.location.assign('driver/home')</script>";
 }
 ?>
 <h1 class="rubikEBold">SREX</h1>
+<h3>Driver Login</h3>
 <section>
 <h3>Welcome Back</h3>
-<p>Sign in to your account</p>
+<p>Sign in to your <b>driver's</b> account</p>
 
-<form action="verify" method="post">
+<form action="verify-driver" method="post">
 <?php
 if(isset($_SESSION['error'])){
 	echo "
@@ -78,12 +94,12 @@ if(isset($_SESSION['success'])){
 <?php
 if(isset($_SESSION['username'])){
 	echo "
-	<input type='email' name='email' id='emai' class='input' placeholder='srexuser@gmail.com' value='".$_SESSION['username']."' required>
+	<input type='email' name='email' id='emai' class='input' placeholder='srexdriver@gmail.com' value='".$_SESSION['username']."' required>
 	";
 	unset($_SESSION['username']);
 }else {
 	echo "
-	<input type='email' name='email' id='emai' class='input' placeholder='srexuser@gmail.com' required>
+	<input type='email' name='email' id='emai' class='input' placeholder='srexdriver@gmail.com' required>
 	";
 }
 ?>
@@ -101,14 +117,10 @@ if(isset($_SESSION['username'])){
 </div>
 
 <button type="submit" name="login" class="button">Login</button>
-<span class="dont">
+<!-- <span class="dont">
 Don't have an account?
 <a href="./register"> Sign up </a>
-</span>
-<span class="dont">
-Are you a driver?
-<a href="./driver-login"> Login here </a>
-</span>
+</span> -->
 </form>
 </section>
 </body>
